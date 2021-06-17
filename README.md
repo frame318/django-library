@@ -37,3 +37,18 @@ class PostAdmin(admin.ModelAdmin):
         ('news_date', DateRangeFilter),
     )
 ```
+## django-feather
+> ใส่ icon หน้าเว็บด้วย feather
+> https://feathericons.com/
+```python
+pip install django-feather
+```
+```python
+INSTALLED_APPS = [
+    'django_feather',
+]
+```
+```python
+{% load icon %}
+{% icon "coffee" class="css-class" height="40" width="40" %}
+```
