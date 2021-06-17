@@ -39,6 +39,7 @@ class PostAdmin(admin.ModelAdmin):
 ```
 ## django-feather
 > ใส่ icon หน้าเว็บด้วย feather
+
 > https://feathericons.com/
 ```python
 pip install django-feather
